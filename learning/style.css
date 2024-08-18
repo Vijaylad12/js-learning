@@ -1,4 +1,6 @@
 #firstdev{
     color: aqua;
     background-color: antiquewhite;
+    text-align: center;
+    text-decoration:line-through red;
 }
