@@ -1,6 +1,7 @@
-#firstdev{
-    color: aqua;
-    background-color: antiquewhite;
-    text-align: center;
-    text-decoration:line-through red;
+
+.ser{
+    height: 200px;
+    width: 50%;
+    background-color:aquamarine ;
+    
 }
