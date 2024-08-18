@@ -9,5 +9,11 @@ const student={
     rollNo:30,
     id:"2222300049"
 }
+// it is called as deconstriction of an object ,which is carried out by following code
 let {name}=student
+// and you can acces the element from the object with that element name ,not need of using (object).element_id
 console.log(name);
+//and you can also give this element a new name like..eg..let {name:any name you want to give here}=student
+//2nd way
+let {age:a}=student
+console.log(a);
