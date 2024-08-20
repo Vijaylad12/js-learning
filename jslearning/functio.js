@@ -42,8 +42,17 @@ console.log(fun3());
 
 //there is another type of operator which can take multiple input as arry ,and it may called as rust opertor
 //"..." depends upon its usecase it also called as spreat operator
-function r(...ele){
-    console.log(ele[1])
-//as use see here it works like array,it takes multiple input as you want to give to function
-}
-r(100,200,300,400)
+// function r(...ele){
+//     console.log(ele[1])
+// //as use see here it works like array,it takes multiple input as you want to give to function
+// }
+// r(100,200,300,400)
+
+
+//imediately invoked function expression
+//for creating this type of function ,syntax is simple ,here we use two paranthese (it's having main function or function body)(it's having function call)
+//it runs the function automatically 
+(function mul(num1,num2){
+    console.log(num1*num2);
+    
+})();
